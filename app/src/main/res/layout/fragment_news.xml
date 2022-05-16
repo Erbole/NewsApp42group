@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".News.NewsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:padding="12dp"
+        android:background="@drawable/circle_backgrond"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите новость"
+        android:inputType="textCapSentences" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="20dp"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:id="@+id/btnSave"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
